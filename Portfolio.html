@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elliot's Portfolio</title>
+    <meta
+      name="description"
+      content="This is a webpage about Elliot"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Elliot's Portfolio</h1>
+      <p>
+        I'm Elliot, a student learning how to build a interactive and
+        user-friendly websites.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Image -->
+    <section>
+      <h2>My Photo</h2>
+      <img
+        src="https://thumbs.dreamstime.com/b/black-guy-showing-hand-1657857.jpg"
+        width="200"
+      />
+    </section>
+
+    <!-- Hobbies Section -->
+    <section>
+      <section id ="about"></section>
+      <h2>My favorite foods</h2>
+      <ol>
+        <li>pizza</li>
+        <li>jollof rice</li>
+        <li>Burger</li>
+      </ol>
+    </section>
+
+    <!-- Favourite Foods Section -->
+    <section>
+      <h2>My Favourite Films</h2>
+      <ul>
+        <li>Godfather 1</li>
+        <li>Godfather 2</li>
+        <li>Green arrow</li>
+      </ul>
+    </section>
+
+    <!-- Tech Glossary -->
+    <section>
+      <h2>Tech Glossary</h2>
+      <dl>
+        <dt>HTML</dt>
+        <dd>The standard markup language for creating webpages.</dd>
+
+        <dt>CSS</dt>
+        <dd>
+          A stylesheet language used to control the layout and design of web
+          pages.
+        </dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language used to add interactivity to websites.</dd>
+      </dl>
+    </section>
+
+    <!-- Skills Table -->
+    <section>
+      <h2>My Skills</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Experience Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+<section id="contact">
+      <h2>Contact Me</h2>
+    <form>
+      <fieldset>
+        <legend>Contact Form</legend>
+
+          <form action="#" method="post">
+          <h2>Contact Me</h2>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+
+      </fieldset>
+
+    </section>
+
+
+      <fieldset>
+        <legend>Work requested</legend>
+        <input type="checkbox" id="webdev" name="service" value="webdev" />
+        <label for="webdev">Web Development</label><br />
+        <input type="checkbox" id="graphic" name="service" value="graphic" />
+        <label for="graphic"> Graphic Designer</label><br />
+        <label for="message">Other:</label><br />
+        <textarea id="message" name="Other" rows="4" required></textarea><br /><br />
+      
+        
+      </fieldset>
+    <fieldset>
+      <legend> Code Languages Used?</legend>
+      <select name="languages" id="languages">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Budget and Timeline</legend>
+      <label for="budget">Budget:</label>
+      <input type="text" id="budget" name="budget" required /><br /><br />
+
+    <label for="timeline">Timeline:</label>
+    <input type="text" id="timeline" name="timeline" required /><br /><br />
+    </fieldset>
+
+    <fieldset> 
+      <legend>Contact details</legend>
+    </fieldset>
+
+    <section>
+    <audio controls>
+    <source 
+    src="https://www.epidemicsound.com/sound-effects/tracks/eab51e75-fb54-48dd-9add-60ca2311ccfc/" 
+    type="audio/mp3">
+    </audio>
+  </section>
+
+  </form>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Elliot's Portfolio</p>
+      <p>
+        Check out my favorite website:
+        <a href="https://www.bet365.com/#/HO/" target="_blank">bet365</a>
+      </p>
+    </footer>
+  </body>
+</html>
